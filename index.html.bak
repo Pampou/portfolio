@@ -512,7 +512,7 @@
         </div>
 		<div class="col-lg-4 col-md-6 portfolio-item filter-ui">
           <div class="portfolio-wrap">
-			<a href="portfolio-dream46-UI.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">
+			<a href="portfolio-dream46-ui.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">
             <img src="assets/img/dream46-ui/dream46-mainmenu.jpg" class="img-fluid" alt="" width="406" height="228">
             <div class="portfolio-info">
               <h4>Dream #46 - UI</h4>
