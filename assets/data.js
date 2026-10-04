@@ -212,7 +212,7 @@ const portfolioData = [
         thumbnail: "assets/img/dream46/title.jpg",
         description: "portfolio_dream46_desc",
         steam: "https://store.steampowered.com/app/2563300/Dream_46/",
-        itchio: "https://pampou.itch.io/dream46"
+        itchio: "https://pampou.itch.io/dream-46"
     },
     {
         name: "dream46-ui",
@@ -221,7 +221,7 @@ const portfolioData = [
         thumbnail: "assets/img/dream46-ui/dream46-mainmenu.jpg",
         description: "portfolio_dream46_desc",
         steam: "https://store.steampowered.com/app/2563300/Dream_46/",
-        itchio: "https://pampou.itch.io/dream46"
+        itchio: "https://pampou.itch.io/dream-46"
     },
     {
         name: "uidemo-CO33",
