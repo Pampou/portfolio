@@ -198,6 +198,7 @@ const translations = {
             <p><strong>Date</strong>: Novembre 2021</p>
             <p><strong>Statut</strong>: Terminé</p>
             <p><strong>Annihilation a obtenu la onzième place (sur 266) de cette game jam</strong></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AYFq-UztisU?si=AjFtNNVuC-m_Vekx&amp;start=9540" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `,
         "portfolio_yllah_desc": `
             <p>Jeu réalisé à l'occasion de la <a href="https://itch.io/jam/pgj-2020">Perpi Game Jam 2020</a> sur la thématique du don.</p>
@@ -447,6 +448,7 @@ const translations = {
             <p><strong>Date</strong>: November 2021</p>
             <p><strong>Status</strong>: Completed</p>
             <p><strong>Annihilation gained the 11th place of 266</strong></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AYFq-UztisU?si=AjFtNNVuC-m_Vekx&amp;start=9540" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `,
         "portfolio_yllah_desc": `
             <p>Game made for the <a target="_blank" href="https://itch.io/jam/pgj-2020">Perpi Game Jam 2020</a>. The theme was : Gift/Donation</p>
