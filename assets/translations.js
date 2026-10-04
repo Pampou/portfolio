@@ -171,7 +171,7 @@ const translations = {
             <p>L'idée est de proposer une version UI et UX du menu d'équipement pour Clair Obscur : Expedition 33. L'interface in-game n'est pas étudié dans cette démo. La proposition repose plus sur des changements UX que UI. L'interface est différente artistiquement mais ce n'est pas ce qu'il faut retenir.</p>
         `,
         "portfolio_devourer_desc": `
-            <p>Jeu réalisé à l'occasion de la <a target="_blank" href="https://itch.io/jam/gmtk-2024">GMTK GameJam 2024</a> sur la thématique : Arcade</p>
+            <p>Jeu réalisé à l'occasion de la <a target="_blank" href="https://itch.io/jam/gmtk-2024">GMTK GameJam 2024</a> sur la thématique : Built to scale</p>
             <p>Réalisé en solo</p>
             <p>[Unity] - Développement, Graphisme, Sound Design & Game Design</p>
             <p><strong>Date</strong>: Août 2024</p>
