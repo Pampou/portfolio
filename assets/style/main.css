@@ -1,0 +1,457 @@
+:root {
+    --accentuation-color: #df84ea;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    color: var(--accentuation-color);
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lang-switcher {
+    display: flex;
+    background: #1e1e1e;
+    border: 1px solid #333;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    color: #b0b0b0;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.lang-btn.active {
+    background-color: var(--accentuation-color);
+    color: white;
+}
+
+.lang-btn:hover:not(.active) {
+    color: var(--accentuation-color);
+}
+
+.aboutme {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    margin: 40px;
+    align-items: center;
+}
+
+.aboutme img {
+    max-width: 100%;
+    height: auto;
+}
+
+.aboutme p {
+    padding: 40px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #030303 url("../img/bg.jpg") top right no-repeat fixed;
+    background-size: cover;
+    color: #e0e0e0;
+    /* Texte clair */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    color: #ffffff;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #333;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-logo {
+    height: 64px;
+}
+
+.header-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-nav a {
+    color: #b0b0b0;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-nav a:hover {
+    color: rgb(223, 132, 234);
+    transform: translateY(-2px);
+}
+
+.section-nav {
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    background-color: #0e0e0e;
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #333;
+}
+
+.section-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.section-nav a {
+    display: block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #b0b0b0;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.section-nav a:hover,
+.section-nav a.active {
+    background-color: var(--accentuation-color);
+    color: white;
+}
+
+main {
+    margin-top: 130px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-section {
+    display: none;
+    width: 96%;
+    background: #0e0e0e;
+    color: #e0e0e0;
+    padding: 20px 40px 20px 40px;
+    animation: fadeIn 0.5s ease;
+    border: 1px solid #333;
+}
+
+.content-section-special {
+    display: none;
+    width: 96%;
+    height: 400px;
+    background: #0e0e0e99;
+    color: #e0e0e0;
+    margin: 100px;
+    animation: fadeIn 0.5s ease;
+    border: 0px solid #ff0000;
+    text-align: center;
+    align-content: center;
+}
+
+.content-section-special span {
+    color: #fff;
+    border-bottom: 2px solid var(--accentuation-color);
+    padding-bottom: 6px;
+}
+
+.content-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.content-section h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #aaaaaa;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+
+.content-section h2::after {
+    content: "";
+    display: inline-block;
+    width: 120px;
+    height: 1px;
+    background-color: var(--accentuation-color);
+    margin: 4px 10px;
+}
+
+.content-section .grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(25% - 15px), 1fr));
+    gap: 10px;
+    /* Espace entre les blocs */
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+    .content-section .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.content-section .grid li {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 0.9rem;
+    border: 1px solid #333;
+    transition: border-color 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.content-section .grid li:hover {
+    border-color: var(--accentuation-color);
+}
+
+@media (max-width: 600px) {
+    .content-section .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+    .header-content {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .section-nav {
+        top: auto;
+        position: relative;
+    }
+
+    main {
+        margin-top: 20px;
+    }
+}
+
+.selected-game {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #070707;
+    border: 2px solid #333;
+    transition: border-color 0.1s;
+    margin: 10px;
+}
+
+.selected-game:focus-visible {
+    outline: 2px solid var(--accentuation-color);
+    outline-offset: 3px;
+}
+
+.selected-game:focus {
+    outline: none;
+}
+
+.selected-game:hover {
+    border-color: var(--accentuation-color);
+}
+
+.selected-game-title {
+    color: var(--accentuation-color);
+    font-weight: bold;
+}
+
+.selected-game-jobs {
+    font-style: italic;
+}
+
+.selected-game-technology {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #1b0f49;
+}
+
+.selected-game-team {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #1a1a1a;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #312e2e;
+}
+
+.selected-game-duration {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #103f2b;
+}
+
+.selected-game-reward {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #221433;
+}
+
+.selected-game-content {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    margin: 20px;
+    align-items: center;
+}
+
+.selected-game-content-left {
+    width: 100%;
+}
+
+.selected-game-content-right {
+    margin-left: auto;
+}
+
+.skills-and-languages {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    gap: 100px;
+    align-items: start;
+}
+
+.learning-and-experiences {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    gap: 100px;
+    align-items: start;
+}
+
+.resume-section {
+    margin: 20px;
+}
+
+.resume-item {
+    padding: 0px 0px 20px 20px;
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+
+.resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -11px;
+    top: 0;
+    background: var(--accentuation-color);
+    border: 2px solid var(--accentuation-color);
+}
+
+.resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: var(--accentuation-color);
+    margin-bottom: 10px;
+}
+
+.resume-item h5 {
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 0px 5px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume-item ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+.contact-and-socials {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    gap: 100px;
+    align-items: start;
+}
+
+#docs {
+    background: #103f2b;
+    height: 100%;
+    flex: 1;
+}
+
+.docs {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
