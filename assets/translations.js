@@ -169,6 +169,8 @@ const translations = {
             <p>[Unreal] - Développement, Graphisme, UI Design, UX Design</p>
             <p><strong>Date</strong>: Mai/Juin 2026</p>
             <p>L'idée est de proposer une version UI et UX du menu d'équipement pour Clair Obscur : Expedition 33. L'interface in-game n'est pas étudié dans cette démo. La proposition repose plus sur des changements UX que UI. L'interface est différente artistiquement mais ce n'est pas ce qu'il faut retenir.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g8SByWQkvoo?si=yP_ROhuQSj_PC-pA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p><a class="portfolio-details-download" target="_blank" href="https://drive.google.com/file/d/1RIQgItcuPyJXQ0l-N3GuIUSV0x6cx47H/view">Télécharger la démo (GDrive)</a></p>
         `,
         "portfolio_devourer_desc": `
             <p>Jeu réalisé à l'occasion de la <a target="_blank" href="https://itch.io/jam/gmtk-2024">GMTK GameJam 2024</a> sur la thématique : Built to scale</p>
@@ -201,7 +203,7 @@ const translations = {
             <iframe width="560" height="315" src="https://www.youtube.com/embed/AYFq-UztisU?si=AjFtNNVuC-m_Vekx&amp;start=9540" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `,
         "portfolio_yllah_desc": `
-            <p>Jeu réalisé à l'occasion de la <a href="https://itch.io/jam/pgj-2020">Perpi Game Jam 2020</a> sur la thématique du don.</p>
+            <p>Jeu réalisé à l'occasion de la <a target="_blank"  href="https://itch.io/jam/pgj-2020">Perpi Game Jam 2020</a> sur la thématique du don.</p>
             <p>Première tentative de réalisation d'un jeu 3D en équipe dans le contexte d'une GameJam</p>
             <p>[Unity] - Développement, Graphisme Environnement</p>
             <p><strong>Date</strong>: Novembre 2020</p>
@@ -217,7 +219,7 @@ const translations = {
             <p><strong>Plant Simulator a obtenu la première place de cette game jam</strong></p>
         `,
         "portfolio_claire_desc": `
-            <p>Jeu réalisé à l'occasion de la <a href="https://itch.io/jam/pgj-2022">Perpi Game Jam 2022</a> sur la thématique des mondes parallèles. Et ce fut une occasion pour moi d'offrir un cadeau d'anniversaire spécial à une amie chère.</p>
+            <p>Jeu réalisé à l'occasion de la <a target="_blank" href="https://itch.io/jam/pgj-2022">Perpi Game Jam 2022</a> sur la thématique des mondes parallèles. Et ce fut une occasion pour moi d'offrir un cadeau d'anniversaire spécial à une amie chère.</p>
             <p>Réalisé en solo</p>
             <p>[Unity] - Développement, Graphisme, Sound Design & Game Design</p>
             <p>Première tentative de réalisation d'un jeu 3D en solo dans le contexte d'une GameJam</p>
@@ -419,6 +421,8 @@ const translations = {
             <p>[Unreal] - Development, Graphics, UI Design, UX Design</p>
             <p><strong>Date</strong>: May/June 2026</p>
             <p>The idea is to give a UI and UX proposal of the equip menu in the game Clair Obscur : Expedition 33. The interface ingame (combat) is not covered in this demo. Even there is a custom art for the UI, the main focus is UX rework.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g8SByWQkvoo?si=yP_ROhuQSj_PC-pA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p><a class="portfolio-details-download" target="_blank" href="https://drive.google.com/file/d/1RIQgItcuPyJXQ0l-N3GuIUSV0x6cx47H/view">Télécharger la démo (GDrive)</a></p>
         `,
         "portfolio_devourer_desc": `
             <p>Game made for the <a target="_blank" href="https://itch.io/jam/gmtk-2024">GMTK GameJam 2024</a> with the theme : Built to scale</p>
