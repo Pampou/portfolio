@@ -422,7 +422,7 @@ const translations = {
             <p><strong>Date</strong>: May/June 2026</p>
             <p>The idea is to give a UI and UX proposal of the equip menu in the game Clair Obscur : Expedition 33. The interface ingame (combat) is not covered in this demo. Even there is a custom art for the UI, the main focus is UX rework.</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/g8SByWQkvoo?si=yP_ROhuQSj_PC-pA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p><a class="portfolio-details-download" target="_blank" href="https://drive.google.com/file/d/1RIQgItcuPyJXQ0l-N3GuIUSV0x6cx47H/view">Télécharger la démo (GDrive)</a></p>
+            <p><a class="portfolio-details-download" target="_blank" href="https://drive.google.com/file/d/1RIQgItcuPyJXQ0l-N3GuIUSV0x6cx47H/view">Download demo (GDrive)</a></p>
         `,
         "portfolio_devourer_desc": `
             <p>Game made for the <a target="_blank" href="https://itch.io/jam/gmtk-2024">GMTK GameJam 2024</a> with the theme : Built to scale</p>
